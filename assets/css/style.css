@@ -1,5 +1,5 @@
 body {
-    background-color: #e6ded3;
+    background-color: #D4D9DF;
     color: #0f0f0f;
     padding: 0;
     margin: 0;
@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-    background-color: #e6ded3;
+    background-color: #D4D9DF;
     display: flex;
     justify-content:center;
     font-family:'Bebas Neue', sans-serif;
@@ -17,11 +17,11 @@ nav {
 
 }
 nav a {
-    color: #0f0f0f;
+    color: #2A2A2A;
     text-decoration: none;
 }
 
-hero {
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,25 +39,12 @@ hero {
     font-weight: 500;
 }
 
-.versiculo-card {
-    background-color: #0f0f0f;
-    border-radius: 9px;
-    padding: 20px;
-    margin: 0 auto;
-    width: 70%;
-}
 .versiculo {
     font-family: 'Poppins', sans-serif;
     color: #0f0f0f;
     text-align: center;
 }
-.frase {
-    display: flex;
-    justify-content: center;
-    color: #fffdf9;
-    font-family: 'Poppins', sans-serif;
-    font-size: 13px;
-}
+
 
 .titulo {
     font-size: 60px;
@@ -65,23 +52,25 @@ hero {
     text-align: center;
     margin: 0px  5px;
     font-style: italic;
+    color: #2A2A2A;
 
 }
 
 .destaque {
-    color: #c8a96b;
-    font-family: 'Cormorant Garamond', serif;
+    color: #F8F8F8;
+    font-family:  'Great Vibes', cursive;
+    font-style: italic;
     font-weight: 100;
     font-size: 80px;
 }
 
 .jornada {
- font-family: 'Poppins', sans-serif;
+    font-family:bebas neue, sans-serif;
     color: #0f0f0f;
-    font-size: 13px;
+    font-size: 20px;
     margin-top: 40px;
     font-weight: 500;
-     text-align: center;
+    text-align: center;
 }
 
 .buttons {
@@ -91,21 +80,17 @@ hero {
     margin-top: 20px;
 }
 .card2 {
-    background-color: #0f0f0f;
-    color: #ded4c5;
-    padding: 2px;
-    border-radius: 9px;
+    background-color: #2A2A2A;
+    color: #F8F8F8;
+    border-radius: 20px;
     text-align: center;
-    overflow: hidden;
 }
 
 .card1 {
-    background-color: #ded4c5;
-    color: #0f0f0f;
+    background-color:#E1E5EA;
+    color: #111111;
     text-align: center;
-    padding: 2px;
-    border-radius: 9px;
-     overflow: hidden;
+    border-radius: 20px;
 }
 
 .coroa {
@@ -116,50 +101,71 @@ hero {
 
 .cruz {
     width: 160px;
+    padding: 0;
+    margin: 0;
 }
 
 .card-titulo1{
     font-family: 'Bebas Neue', sans-serif;
-    margin: 5px;
+    margin: 0px;
     font-size: 25px;
 }
 
 .card-titulo2{
 font-family: 'Bebas Neue', sans-serif;
-margin: 5px;
+margin: 0px; 
 font-size: 25px;
 }
 
 .card-frase1 {
 font-family: 'poppins', sans-serif;
-margin: 6px;
-font-size: 10px;  
+margin: 9px;
+font-size: 12px;  
 
 }
 
 .card-frase2 {
     font-family: 'poppins', sans-serif;
     font-size: 10px;    
-    margin: 6px;
+    margin: 9px;
 }
 
 .botao1{
-background-color: #0f0f0f;
-color: #ded4c5;
-padding: 9px;
-border-radius: 100px;
+color: #111111;
+padding: 1px;
+border-radius: 5%;
 text-decoration: none;
-font-size: 12px;
+font-size: 45px;
 
 
 }
 
-.botao2{
-    background-color: #c8a96b;
-    color: #0F0f0f;
-    padding: 9px;
-    border-radius: 100px;
-    margin: 2px;
+.botao2 {
+    color: #E1E5EA;
+    padding: 1px;
+    border-radius: 5%;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 45px;
+}
+
+.rodape {
+    color: #F8F8F8;
+    display: flex;
+    padding: 11px;
+    font-family: bebas neue, sans-serif;
+    font-size: 15px;
+    margin-top: 10%;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.botao-sobre {
+    color: #111111;
+    padding: 14px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
 }
