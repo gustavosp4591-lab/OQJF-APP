@@ -73,19 +73,47 @@ nav a {
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
+    transition: transform 0.5s;
 }
 .card2 {
     background-color: #2A2A2A;
     color: #F8F8F8;
     border-radius: 20px;
     text-align: center;
+    text-decoration: none;
+    transition: transform 0.5s ease,
+    background-color 0.5s ease,
+    box-shadow 0.5s ease;
 }
+
+.card1:hover{
+    background-color: #F8F8F8;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    transform: scale(1.06);
+    transition: transform 0.5s; 
+}
+
+.card2:hover{
+    background-color: #0e0e0e;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    transform: scale(1.06);
+    transition: transform 0.5s;
+}
+
 
 .card1 {
     background-color:#E1E5EA;
     color: #111111;
     text-align: center;
     border-radius: 20px;
+    text-decoration: none;
+    transition: transform 0.5s ease,
+    background-color 0.5s ease,
+    box-shadow 0.5s ease;
 }
 
 .coroa {
@@ -131,9 +159,10 @@ padding: 1px;
 border-radius: 5%;
 text-decoration: none;
 font-size: 45px;
-
-
+margin: 0px;
 }
+
+
 
 .botao2 {
     color: #E1E5EA;
@@ -141,6 +170,8 @@ font-size: 45px;
     border-radius: 5%;
     text-decoration: none;
     font-size: 45px;
+    margin: 0px;
+
 }
 
 .rodape {
@@ -163,4 +194,15 @@ font-size: 45px;
     font-size: 15px;
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
+    transition: transform 0.5s ease,
+    background-color 0.5s ease,
+    box-shadow 0.5s ease;
+}
+
+.botao-sobre:hover {
+    color: #F8F8F8;
+    text-align: center;
+    text-decoration: none;
+    transform: scale(1.06);
+    transition: transform 0.5s;
 }
