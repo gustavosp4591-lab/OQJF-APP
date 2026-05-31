@@ -1,23 +1,29 @@
 body {
-    background-color: #D4D9DF;
-    color: #0f0f0f;
-    padding: 0;
     margin: 0;
-    
+    padding: 0;
+    background-color: #0e0c11;
 }
 
-nav {
-    background-color: #D4D9DF;
-    display: flex;
-    justify-content:center;
-    font-family:'Bebas Neue', sans-serif;
-    text-align: center;
-    font-size: 40px;
-
-
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 8px 2px 0;
+max-width: 420px;
+margin: 0 auto;
+position: relative;
 }
+
+header nav a {
+font-family: 'Bebas Neue', sans-serif;
+font-size: 24px;
+letter-spacing: 0.04em;
+text-decoration: none;
+color: #eef1f6;
+}
+
 nav a {
-    color: #2A2A2A;
+    color: #eef1f6;
     text-decoration: none;
 }
 
@@ -27,16 +33,15 @@ nav a {
 
 .bom-dia {
     font-family: 'Poppins', sans-serif;
-    color: #0f0f0f;
-    font-size: 13px;
-    margin-left: 60px;
-    margin-top: 10px;
+    color: #7a8392;
+    font-size: 12px;
+    margin: 0px;
     font-weight: 500;
 }
 
 .versiculo {
     font-family: 'Poppins', sans-serif;
-    color: #0f0f0f;
+    color: #eef1f6;
     text-align: center;
 }
 
@@ -47,12 +52,12 @@ nav a {
     text-align: center;
     margin: 0px  15px;
     font-style: italic;
-    color: #2A2A2A;
+    color: #eef1f6;
 
 }
 
 .destaque {
-    color: #F8F8F8;
+    color: #7a8392;
     font-family:  'Great Vibes', cursive;
     font-style: italic;
     font-weight: 100;
@@ -61,10 +66,9 @@ nav a {
 
 .jornada {
     font-family:bebas neue, sans-serif;
-    color: #0f0f0f;
+    color: #eef1f6;
     font-size: 20px;
     margin-top: 40px;
-    font-weight: 500;
     text-align: center;
 }
 
@@ -76,7 +80,7 @@ nav a {
     transition: transform 0.5s;
 }
 .card2 {
-    background-color: #2A2A2A;
+    background-color:  #393d44;
     color: #F8F8F8;
     border-radius: 20px;
     text-align: center;
@@ -96,7 +100,7 @@ nav a {
 }
 
 .card2:hover{
-    background-color: #0e0e0e;
+    background-color: #2A2A2A;
     border-radius: 20px;
     text-align: center;
     text-decoration: none;
@@ -175,7 +179,7 @@ margin: 0px;
 }
 
 .rodape {
-    color: #F8F8F8;
+    color: #eef1f6;
     display: flex;
     padding: 11px;
     font-family: bebas neue, sans-serif;
@@ -187,7 +191,7 @@ margin: 0px;
 }
 
 .botao-sobre {
-    color: #111111;
+    color: #7a8392;
     padding: 14px;
     border-radius: 12px;
     text-decoration: none;
