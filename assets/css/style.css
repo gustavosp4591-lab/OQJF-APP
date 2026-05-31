@@ -8,7 +8,7 @@ header {
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 8px 2px 0;
+padding: 10px 20px 0;
 max-width: 420px;
 margin: 0 auto;
 position: relative;
@@ -50,7 +50,7 @@ nav a {
     font-size: 60px;
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
-    margin: 0px  15px;
+    margin: 15px  20px;
     font-style: italic;
     color: #eef1f6;
 
