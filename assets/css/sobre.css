@@ -12,19 +12,13 @@ body {
 }
 header {
     background-color: #0e0c11;
-    padding:20px;
     text-align: center;
 }
 
-header nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0;
-    font-size: 25px;
-    font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 0.05em;
+.logo {
+    width: 110px;
+    height: auto;
 }
-
 .hero {
     text-align: center;
     padding: 24px 20px 24px;
