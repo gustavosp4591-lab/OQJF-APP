@@ -53,8 +53,8 @@ header {
     border: 1px solid #f8f8f820;
 }
 .imagem {
-    width: 64px;
-    height: 64px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     object-fit: cover;
     flex-shrink: 0;
@@ -77,7 +77,7 @@ header {
 
 .funcao {
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 250;
 }
 
 .historia {
