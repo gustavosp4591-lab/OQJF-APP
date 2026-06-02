@@ -153,3 +153,41 @@ header nav a {
     border-radius: 12px;
     border: 1px solid #f8f8f820;
 }
+
+.motivo p {
+    margin-bottom: 19px;
+    line-height: 1.2;
+}
+
+.rodape {
+    color: #eef1f6;
+    display: flex;
+    padding: 11px;
+    font-family: bebas neue, sans-serif;
+    font-size: 15px;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botao-sobre {
+    color: #7a8392;
+    padding: 0px 4px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    transition: transform 0.5s ease,
+    background-color 0.5s ease,
+    box-shadow 0.5s ease;
+}
+
+.botao-sobre:hover {
+    color: #F8F8F8;
+    text-align: center;
+    text-decoration: none;
+    transform: scale(1.06);
+    transition: transform 0.5s;
+}
