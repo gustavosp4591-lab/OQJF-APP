@@ -101,7 +101,7 @@ header nav a {
 .proposito-lista {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     padding: 9px 20px;
 }
 
