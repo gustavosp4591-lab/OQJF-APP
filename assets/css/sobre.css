@@ -1,2 +1,155 @@
+*{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    background-color: #0e0c11;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    max-width: 400px;
+    margin: 0 auto;
+}
+header {
+    background-color: #0e0c11;
+    padding:20px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+.hero {
+    text-align: center;
+    padding: 24px 20px 24px;
+}
+
+.titulo {
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.05em;
+    margin-bottom: 16px;
+    padding: 1px 1px;
+
+}
+
+.descricao {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 24px;
+    line-height: 1.3;
+}
+
+.sobre_criador {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 16px;
+    background-color: #2A2A2A;
+    margin: 19px;
+    border-radius: 12px;
+    border: 1px solid #f8f8f820;
+}
+.imagem {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 1px solid #f8f8f820;
+}
+
+.criador {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+}
+
+.nome {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.funcao {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.historia {
+    font-size: 14px;
+    font-weight: 200;
+}
 
 
+.subtitulo1 {
+    font-size: 20px;
+    margin: 0px 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.07em;
+}
+
+.proposito-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 9px 20px;
+}
+
+.proposito {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: #2A2A2A;
+    padding: 18px;
+    border-radius: 12px;
+    border: 1px solid #f8f8f820;
+}
+.imagem2 {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    flex-shrink: 0;
+    background-color: #000000;
+    border-radius: 60%;
+    padding: 3px;
+    border: 1px solid #f8f8f820;
+}
+
+.proposito-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.proposito_titulo {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.proposito_descricao {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.motivo {
+    font-size: 15px;
+    font-weight: 200;
+    padding: 12px 20px;
+    margin: 10px;
+    letter-spacing: 0.04em;
+    background-color: #2A2A2A;
+    border-radius: 12px;
+    border: 1px solid #f8f8f820;
+}

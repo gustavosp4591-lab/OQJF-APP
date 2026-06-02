@@ -9,3 +9,14 @@ fetch('assets/data/versiculos.json')
         console.log(versiculo);
         split(' ').pop() // Remove a última palavra (referência)
     });
+
+
+  window.addEventListener('load', () => {
+    const splash = document.getElementById('splash');
+    setTimeout(() => {
+      splash.style.opacity = '0';
+      setTimeout(() => splash.style.display = 'none', 600);
+    }, 2000);
+  });
+
+
