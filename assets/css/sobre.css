@@ -186,3 +186,33 @@ header {
     transform: scale(1.06);
     transition: transform 0.5s;
 }
+
+
+@view-transition {
+    navigation: auto; 
+    }
+
+@keyframes saindo {
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes entrando {
+    from {
+        transform: translateX(100%);
+    }
+}
+
+::view-transition-group(root) {
+    animation-duration: 1s;
+}
+
+::view-transition-old(root) {
+    animation-name: saindo;
+
+}
+
+::view-transition-new(root) {
+    animation-name: entrando;  
+}

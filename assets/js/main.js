@@ -11,12 +11,5 @@ fetch('assets/data/versiculos.json')
     });
 
 
-  window.addEventListener('load', () => {
-    const splash = document.getElementById('splash');
-    setTimeout(() => {
-      splash.style.opacity = '0';
-      setTimeout(() => splash.style.display = 'none', 600);
-    }, 2000);
-  });
 
 
